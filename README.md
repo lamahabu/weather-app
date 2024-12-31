@@ -1,37 +1,10 @@
-# Weather Journal App
+# Weather-Journal App Project
 
-This is a simple web application that allows users to enter their zip code, retrieve weather data for that location, and submit their feelings about the weather. The app uses the OpenWeatherMap API to fetch weather information and stores it on a local server running on port 3000 using Express.js. The application is designed with HTML, CSS, JavaScript, and Node.js.
+## Overview
+This project requires you to create an asynchronous web app that uses Web API and user data to dynamically update the UI. 
 
-## Features
+## Instructions
+This will require modifying the `server.js` file and the `website/app.js` file. You can see `index.html` for element references, and once you are finished with the project steps, you can use `style.css` to style your application to customized perfection.
 
-- Enter a zip code to get weather data for the location.
-- Input feelings about the weather.
-- Display weather data and user feelings on the page.
-- Store data on a server and update the UI dynamically.
-
-## Technologies Used
-
-- **Frontend**:
-  - HTML
-  - CSS
-  - JavaScript
-  - Fetch API
-
-- **Backend**:
-  - Node.js
-  - Express.js
-  - Body-parser middleware
-  - CORS for cross-origin requests
-
-- **External APIs**:
-  - OpenWeatherMap API (for weather data)
-
-## Getting Started
-
-### Prerequisites
-
-To get this app up and running on your local machine, you'll need to have the following installed:
-
-- [Node.js](https://nodejs.org/)
-- [npm](https://www.npmjs.com/)
-
+## Extras
+If you are interested in testing your code as you go, you can use `tests.js` as a template for writing and running some basic tests for your code.
